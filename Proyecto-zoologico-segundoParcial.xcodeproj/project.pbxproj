@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DFEB3BC253D1F1B007FE8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEB3BB253D1F1B007FE8BD /* AppDelegate.swift */; };
+		3DFEB3BE253D1F1B007FE8BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEB3BD253D1F1B007FE8BD /* SceneDelegate.swift */; };
+		3DFEB3C0253D1F1B007FE8BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEB3BF253D1F1B007FE8BD /* ViewController.swift */; };
+		3DFEB3C3253D1F1B007FE8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEB3C1253D1F1B007FE8BD /* Main.storyboard */; };
+		3DFEB3C5253D1F21007FE8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEB3C4253D1F21007FE8BD /* Assets.xcassets */; };
+		3DFEB3C8253D1F21007FE8BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEB3C6253D1F21007FE8BD /* LaunchScreen.storyboard */; };
+		3DFEB3D3253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEB3D2253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialTests.swift */; };
+		3DFEB3DE253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEB3DD253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFEB3CF253D1F22007FE8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFEB3B0253D1F1B007FE8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFEB3B7253D1F1B007FE8BD;
+			remoteInfo = "Proyecto-zoologico-segundoParcial";
+		};
+		3DFEB3DA253D1F22007FE8BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFEB3B0253D1F1B007FE8BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFEB3B7253D1F1B007FE8BD;
+			remoteInfo = "Proyecto-zoologico-segundoParcial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DFEB3B8253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto-zoologico-segundoParcial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFEB3BB253D1F1B007FE8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DFEB3BD253D1F1B007FE8BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DFEB3BF253D1F1B007FE8BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DFEB3C2253D1F1B007FE8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DFEB3C4253D1F21007FE8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFEB3C7253D1F21007FE8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DFEB3C9253D1F22007FE8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFEB3CE253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto-zoologico-segundoParcialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFEB3D2253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_zoologico_segundoParcialTests.swift; sourceTree = "<group>"; };
+		3DFEB3D4253D1F22007FE8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFEB3D9253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto-zoologico-segundoParcialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFEB3DD253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_zoologico_segundoParcialUITests.swift; sourceTree = "<group>"; };
+		3DFEB3DF253D1F22007FE8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFEB3B5253D1F1B007FE8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3CB253D1F22007FE8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3D6253D1F22007FE8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DFEB3AF253D1F1B007FE8BD = {
+			isa = PBXGroup;
+			children = (
+				3DFEB3BA253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */,
+				3DFEB3D1253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests */,
+				3DFEB3DC253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests */,
+				3DFEB3B9253D1F1B007FE8BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFEB3B9253D1F1B007FE8BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEB3B8253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial.app */,
+				3DFEB3CE253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests.xctest */,
+				3DFEB3D9253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFEB3BA253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEB3BB253D1F1B007FE8BD /* AppDelegate.swift */,
+				3DFEB3BD253D1F1B007FE8BD /* SceneDelegate.swift */,
+				3DFEB3BF253D1F1B007FE8BD /* ViewController.swift */,
+				3DFEB3C1253D1F1B007FE8BD /* Main.storyboard */,
+				3DFEB3C4253D1F21007FE8BD /* Assets.xcassets */,
+				3DFEB3C6253D1F21007FE8BD /* LaunchScreen.storyboard */,
+				3DFEB3C9253D1F22007FE8BD /* Info.plist */,
+			);
+			path = "Proyecto-zoologico-segundoParcial";
+			sourceTree = "<group>";
+		};
+		3DFEB3D1253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEB3D2253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialTests.swift */,
+				3DFEB3D4253D1F22007FE8BD /* Info.plist */,
+			);
+			path = "Proyecto-zoologico-segundoParcialTests";
+			sourceTree = "<group>";
+		};
+		3DFEB3DC253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEB3DD253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialUITests.swift */,
+				3DFEB3DF253D1F22007FE8BD /* Info.plist */,
+			);
+			path = "Proyecto-zoologico-segundoParcialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFEB3B7253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFEB3E2253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcial" */;
+			buildPhases = (
+				3DFEB3B4253D1F1B007FE8BD /* Sources */,
+				3DFEB3B5253D1F1B007FE8BD /* Frameworks */,
+				3DFEB3B6253D1F1B007FE8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proyecto-zoologico-segundoParcial";
+			productName = "Proyecto-zoologico-segundoParcial";
+			productReference = 3DFEB3B8253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DFEB3CD253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFEB3E5253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcialTests" */;
+			buildPhases = (
+				3DFEB3CA253D1F22007FE8BD /* Sources */,
+				3DFEB3CB253D1F22007FE8BD /* Frameworks */,
+				3DFEB3CC253D1F22007FE8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFEB3D0253D1F22007FE8BD /* PBXTargetDependency */,
+			);
+			name = "Proyecto-zoologico-segundoParcialTests";
+			productName = "Proyecto-zoologico-segundoParcialTests";
+			productReference = 3DFEB3CE253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DFEB3D8253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFEB3E8253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcialUITests" */;
+			buildPhases = (
+				3DFEB3D5253D1F22007FE8BD /* Sources */,
+				3DFEB3D6253D1F22007FE8BD /* Frameworks */,
+				3DFEB3D7253D1F22007FE8BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFEB3DB253D1F22007FE8BD /* PBXTargetDependency */,
+			);
+			name = "Proyecto-zoologico-segundoParcialUITests";
+			productName = "Proyecto-zoologico-segundoParcialUITests";
+			productReference = 3DFEB3D9253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFEB3B0253D1F1B007FE8BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Estudiate;
+				TargetAttributes = {
+					3DFEB3B7253D1F1B007FE8BD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3DFEB3CD253D1F22007FE8BD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3DFEB3B7253D1F1B007FE8BD;
+					};
+					3DFEB3D8253D1F22007FE8BD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3DFEB3B7253D1F1B007FE8BD;
+					};
+				};
+			};
+			buildConfigurationList = 3DFEB3B3253D1F1B007FE8BD /* Build configuration list for PBXProject "Proyecto-zoologico-segundoParcial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DFEB3AF253D1F1B007FE8BD;
+			productRefGroup = 3DFEB3B9253D1F1B007FE8BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFEB3B7253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */,
+				3DFEB3CD253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialTests */,
+				3DFEB3D8253D1F22007FE8BD /* Proyecto-zoologico-segundoParcialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFEB3B6253D1F1B007FE8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFEB3C8253D1F21007FE8BD /* LaunchScreen.storyboard in Resources */,
+				3DFEB3C5253D1F21007FE8BD /* Assets.xcassets in Resources */,
+				3DFEB3C3253D1F1B007FE8BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3CC253D1F22007FE8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3D7253D1F22007FE8BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFEB3B4253D1F1B007FE8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFEB3C0253D1F1B007FE8BD /* ViewController.swift in Sources */,
+				3DFEB3BC253D1F1B007FE8BD /* AppDelegate.swift in Sources */,
+				3DFEB3BE253D1F1B007FE8BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3CA253D1F22007FE8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFEB3D3253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFEB3D5253D1F22007FE8BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFEB3DE253D1F22007FE8BD /* Proyecto_zoologico_segundoParcialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DFEB3D0253D1F22007FE8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFEB3B7253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */;
+			targetProxy = 3DFEB3CF253D1F22007FE8BD /* PBXContainerItemProxy */;
+		};
+		3DFEB3DB253D1F22007FE8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFEB3B7253D1F1B007FE8BD /* Proyecto-zoologico-segundoParcial */;
+			targetProxy = 3DFEB3DA253D1F22007FE8BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DFEB3C1253D1F1B007FE8BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFEB3C2253D1F1B007FE8BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DFEB3C6253D1F21007FE8BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFEB3C7253D1F21007FE8BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DFEB3E0253D1F22007FE8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DFEB3E1253D1F22007FE8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DFEB3E3253D1F22007FE8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DFEB3E4253D1F22007FE8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DFEB3E6253D1F22007FE8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto-zoologico-segundoParcial.app/Proyecto-zoologico-segundoParcial";
+			};
+			name = Debug;
+		};
+		3DFEB3E7253D1F22007FE8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto-zoologico-segundoParcial.app/Proyecto-zoologico-segundoParcial";
+			};
+			name = Release;
+		};
+		3DFEB3E9253D1F22007FE8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proyecto-zoologico-segundoParcial";
+			};
+			name = Debug;
+		};
+		3DFEB3EA253D1F22007FE8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-zoologico-segundoParcialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ulsa.edu.Proyecto-zoologico-segundoParcialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proyecto-zoologico-segundoParcial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFEB3B3253D1F1B007FE8BD /* Build configuration list for PBXProject "Proyecto-zoologico-segundoParcial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFEB3E0253D1F22007FE8BD /* Debug */,
+				3DFEB3E1253D1F22007FE8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFEB3E2253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFEB3E3253D1F22007FE8BD /* Debug */,
+				3DFEB3E4253D1F22007FE8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFEB3E5253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFEB3E6253D1F22007FE8BD /* Debug */,
+				3DFEB3E7253D1F22007FE8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFEB3E8253D1F22007FE8BD /* Build configuration list for PBXNativeTarget "Proyecto-zoologico-segundoParcialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFEB3E9253D1F22007FE8BD /* Debug */,
+				3DFEB3EA253D1F22007FE8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFEB3B0253D1F1B007FE8BD /* Project object */;
+}
